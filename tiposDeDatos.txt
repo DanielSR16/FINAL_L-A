@@ -1,0 +1,18 @@
+transcripcion = {'entero':'int','cadena':'CHAR','dobleFlotante':'DOUBLE','cadenaDefinida':'VARCHAR',
+
+'enteroSuperPequeño':'SMALLINT','enteroPequeño':'TINYINT','enteroMediano':'MEDIUMINT','bigInt':'BIGINT',
+
+'enteroDecimal':'FLOAT','fecha':'DATE','fechaHora':'DATETIME','hora':'TIME','año':'YEAR','textoPequeño':'TINYTEXT',
+
+'texto':'TEXT','textoMediano':'MEDIUMTEXT','textoLargo':'LONGTEXT','FLOAT':'FLOAT','decimalDoble':'DOBLE','incrementarse':'AUTO_INCREMENT','noVacio':'NOT NULL','decimal':'DECIMAL' }
+
+
+numericos
+int -
+SMALLINT -
+TINYINT -
+MEDIUMINT -
+BIGINT - 
+
+
+

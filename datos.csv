@@ -1,0 +1,22 @@
+-1,$,BaseDeDatos,NombreTabla,ListaCampo,LlavePrimaria,a…z|A…Z,0...9,",",-,(,),:,incrementarse,noVacio,entero,cadena,dobleFlotante,cadenaDefinida,enteroSuperPequeño,enteroPequeño,enteroMediano,bigInt,enteroDecimal,decimalDoble,decimal,fecha,fechaHora,hora,año,textoPequeño,texto,textoMediano,textoLargo
+ENTRADAS,-1,BD NT LC PK,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+BD,-1,BaseDeDatos DOS_PUNTOS PALABRA ,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+NT,-1,-1,NombreTabla DOS_PUNTOS PALABRA,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+LC,-1,-1,-1,ListaCampo DOS_PUNTOS PALABRA GUION VALOR GUION NULL GUION AUTO_INCREMENTO SEPARACION COMPLEMENTO_LC,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+PK,-1,-1,-1,-1,LlavePrimaria DOS_PUNTOS  PALABRA,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+DOS_PUNTOS,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,:,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+LETRA,-1,-1,-1,-1,-1,a…z|A…Z,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+PALABRA,-1,-1,-1,-1,-1,LETRA COMPLEMENTO ,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+COMPLEMENTO,vacio,-1,vacio,vacio,-1,LETRA COMPLEMENTO,-1,-1,vacio,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+SEPARACION,-1,-1,-1,-1,-1,-1,-1,",",-,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+COMPLEMENTO_LC,-1,-1,-1,-1,vacio,PALABRA GUION VALOR GUION NULL GUION AUTO_INCREMENTO SEPARACION COMPLEMENTO_LC,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+VALOR,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,entero,cadena PA CANTIDAD PC,dobleFlotante,cadenaDefinida,enteroSuperPequeño,enteroPequeño,enteroMediano PA CANTIDAD PC,bigInt PA CANTIDAD PC,"enteroDecimal PA CANTIDAD , CANTIDAD PC","decimalDoble PA CANTIDAD , CANTIDAD PC","decimal PA CANTIDAD , CANTIDAD PC",fecha,fechaHora,hora,"año PA CANTIDAD PC",textoPequeño,texto,textoMediano,textoLargo
+NUMERO,-1,-1,-1,-1,-1,-1,0...9,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+CANTIDAD,-1,-1,-1,-1,-1,-1,NUMERO NUMERO_COMPLEMENTO,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+NUMERO_COMPLEMENTO,-1,-1,-1,-1,-1,-1,NUMERO NUMERO_COMPLEMENTO,vacio,-1,-1,vacio,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+NULL,-1,-1,-1,-1,-1,-1,-1,-1,vacio,-1,-1,-1,-1,noVacio,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+AUTO_INCREMENTO,-1,-1,-1,-1,-1,-1,-1,vacio,vacio,-1,-1,-1,incrementarse,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+PA,-1,-1,-1,-1,-1,-1,-1,-1,-1,(,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+PC,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,),-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+GUION,-1,-1,-1,-1,-1,-1,-1,-1,-,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+COMA,-1,-1,-1,-1,-1,-1,-1,",",-,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
